@@ -147,19 +147,10 @@ main {
 }
 
 #clear-input {
+	visibility: hidden;
 	font-size: 1.2em;
 	color: rgb(154, 160, 166);
 	margin: 0 1em;
-}
-
-.visible {
-	visibility: visible;
-	cursor: pointer;
-}
-
-.hidden {
-	visibility: hidden;
-	cursor: default;
 }
 
 .form-submit {
